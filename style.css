@@ -1,0 +1,42 @@
+* {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #c56cf0, #00C853);
+    color: white;
+    font-size: 2rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    font-weight: 700;
+}
+
+form button {
+    color: #3c6382;
+    background: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+form button:hover {
+    background: #3c6382;
+    color: white;
+}
